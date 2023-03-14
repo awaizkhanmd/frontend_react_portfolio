@@ -1,6 +1,6 @@
 #home {
     position: relative;
-    background: url("../../assets/bgIMG.png");
+    // background: url("../../assets/bgIMG.png");
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -126,7 +126,7 @@
     }
   
     div:nth-child(2) {
-      margin: 1.75rem;
+      
       width: 150px;
       height: 150px;
     }
@@ -135,6 +135,13 @@
       width: 70px;
       height: 70px;
     }
+    div:nth-child(4) {
+      width: 70px;
+      height: 60px;
+      
+     
+    }
+    
   
     @media screen and (min-width: 2000px) {
       div:nth-child(2) {

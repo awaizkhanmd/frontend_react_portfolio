@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import  SocialMedia from '../../components/SocialMedia'
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
@@ -37,7 +37,9 @@ const Footer = () => {
 
   return (
     <>
+  
       <h2 className="head-text">Take a coffee & chat with me</h2>
+      
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
@@ -75,6 +77,11 @@ const Footer = () => {
           </h3>
         </div>
       )}
+      <SocialMedia />
+      <div className="copyright">
+          <p className="p-text">@2023 AKM</p>
+          <p className="p-text">All rights reserved</p>
+        </div>
     </>
   );
 };
