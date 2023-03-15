@@ -60,6 +60,30 @@ const Footer = () => {
             <input className="p-text" type="email" placeholder="Your Email" name="email" value={email} onChange={handleChangeInput} />
           </div>
           <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
             <textarea
               className="p-text"
               placeholder="Your Message"
