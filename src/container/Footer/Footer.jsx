@@ -38,7 +38,7 @@ const Footer = () => {
   return (
     <>
   
-      <h2 className="head-text">Take a coffee & chat with me</h2>
+      <h2 className="head-text">Contact me</h2>
       
 
       <div className="app__footer-cards">
@@ -77,8 +77,9 @@ const Footer = () => {
           </h3>
         </div>
       )}
-      <SocialMedia />
+      
       <div className="copyright">
+      <SocialMedia />
           <p className="p-text">@2023 AKM</p>
           <p className="p-text">All rights reserved</p>
         </div>
